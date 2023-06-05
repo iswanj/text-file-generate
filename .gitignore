@@ -1,1 +1,4 @@
+.DS_Store
 node_modules
+files/main_thread/*.txt
+files/worker_thread/*.txt

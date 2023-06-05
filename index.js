@@ -9,9 +9,8 @@ async function Main() {
 
     for (let i = 0; i < headers.length; i++) {
       const header = headers[i];
-      const filePath = `files/worker_thread/text_file_${i + 1}.txt`;
+      const filePath = `text_file_${i + 1}.txt`;
       await generateW(header, filePath, fileSizeInBytes);
-      console.log(`Text file ${filePath} generated successfully!`);
     }
 
     console.log("Total time spent: ", Date.now() - start, "ms");
