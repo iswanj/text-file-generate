@@ -1,0 +1,11 @@
+{
+  "name": "text-file-generate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ask@iswanjumat.com",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "pdfmake": "^0.2.7"
+  }
+}
